@@ -3,18 +3,16 @@ package com.nxtgenai.registerdemo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class RegisterDemoFlow {
 
 	// 26 Nov 2023 - Code is added by Vinoth in github
+	// 27 Nov 2023 - Updated the edge driver version by Vinoth R
 	public WebDriver driver;
 
 	// Parameterize all the Input Values
@@ -75,7 +73,7 @@ public class RegisterDemoFlow {
 		
 	}
 
-	@Test(priority = 2,enabled=false)
+	@Test(priority = 2)
 	public void navigateToRegisterDemoPage() {
 		// Navigate to RegisterDemo Page
 		// Create the object instance for Actions Class
@@ -86,7 +84,7 @@ public class RegisterDemoFlow {
 		action.moveToElement(demoSites).perform();
 
 		// Mousehover above the Practice Automation
-		WebElement practiceAutomation = driver.findElement(By.xpath("(//a[contains(text(),'Practice Automation')])[2]"));
+		WebElement practiceAutomation = driver.findElement(By.linkText("Practice Automation"));
 		action.moveToElement(practiceAutomation).perform();
 
 		// Click on Demo Site – Registration Form link
@@ -96,7 +94,7 @@ public class RegisterDemoFlow {
 		Reporter.log("Register Demo Page is displayed");
 	}
 
-	@Test(priority = 3,enabled=false)
+	@Test(priority = 3)
 	public void registerDemo() {
 		// Fill the Registration form by entering the all fields
 
@@ -500,7 +498,7 @@ public class RegisterDemoFlow {
 
 	}
 
-	@Test(priority = 4,enabled=false)
+	@Test(priority = 4)
 	public void validateSuccessfulMessage() {
 		
 		WebElement successfulMsgText = driver.findElement(By.className(successfulMsgTextLocator));

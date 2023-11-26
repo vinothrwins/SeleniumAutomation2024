@@ -1,26 +1,418 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Application is launched]]>
     </line>
     <line>
+      <![CDATA[Register Demo Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[First Name is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[First Name is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[First Name Value is: Vinoth]]>
+    </line>
+    <line>
+      <![CDATA[Last Name is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Last Name is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Last Name Value is: R]]>
+    </line>
+    <line>
+      <![CDATA[Male Radio Button is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Male Radio Button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Male Radio Button is not selected]]>
+    </line>
+    <line>
+      <![CDATA[Male Radio Button is selected]]>
+    </line>
+    <line>
+      <![CDATA[Street Address is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Street Address is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Street Address Value is: xyZ]]>
+    </line>
+    <line>
+      <![CDATA[Apartment Number is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Apartment Number is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Apartment Number Value is : S1]]>
+    </line>
+    <line>
+      <![CDATA[City Name is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[City Name is enabled]]>
+    </line>
+    <line>
+      <![CDATA[City Name Value is : Chennai]]>
+    </line>
+    <line>
+      <![CDATA[State is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[State is enabled]]>
+    </line>
+    <line>
+      <![CDATA[State Value is : Tamil Nadu]]>
+    </line>
+    <line>
+      <![CDATA[Postal Code is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Postal Code is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Postal Code Value is : 560078]]>
+    </line>
+    <line>
+      <![CDATA[Country Drop Down is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Country Drop Down is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Email is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Email is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Email Id is: ra@aol.com]]>
+    </line>
+    <line>
+      <![CDATA[Date of Demo is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Date of Demo is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Date of Demo Value is : 01/27/2023]]>
+    </line>
+    <line>
+      <![CDATA[Hour DropDown is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Hour DropDown is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Hour dropdown value is: 09]]>
+    </line>
+    <line>
+      <![CDATA[Minute DropDown is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Minute DropDown is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Minute Drop Down Value is : 30]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number Value is : 123456789]]>
+    </line>
+    <line>
+      <![CDATA[UFT Check Box is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[UFT Check Box is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[UFT Check Box is not selected]]>
+    </line>
+    <line>
+      <![CDATA[UFT Check Box is selected]]>
+    </line>
+    <line>
+      <![CDATA[Selenium WebDriver Check Box is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Selenium WebDriver Check Box is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Selenium WebDriver Check Box is not selected]]>
+    </line>
+    <line>
+      <![CDATA[Selenium WebDriver Check Box is Selected]]>
+    </line>
+    <line>
+      <![CDATA[Enter Your Query is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Enter Your Query is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Enter Your Query is: Registration is done successfully without any error]]>
+    </line>
+    <line>
+      <![CDATA[Enter Any Two Digits is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Enter Any Two Digits is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Enter Any Two Digits is: 99]]>
+    </line>
+    <line>
+      <![CDATA[Submit Button is Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Successful Message Text is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[User is registered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected Successful Msg Text are the same]]>
+    </line>
+    <line>
+      <![CDATA[The Successful Message Text is : Dynamic Transaction Verification
+Registration Form is Successfully Submitted. The Transaction ID : NXTGEN58248]]>
+    </line>
+    <line>
+      <![CDATA[Successful Message is validated]]>
+    </line>
+    <line>
       <![CDATA[Application is closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-26T19:26:34 IST" name="Sanity Suite" finished-at="2023-11-26T19:26:46 IST" duration-ms="12178">
+  <suite started-at="2023-11-26T19:59:36 IST" name="Sanity Suite" finished-at="2023-11-26T19:59:48 IST" duration-ms="12164">
     <groups>
     </groups>
-    <test started-at="2023-11-26T19:26:34 IST" name="RegisterDemo Flow" finished-at="2023-11-26T19:26:46 IST" duration-ms="12178">
+    <test started-at="2023-11-26T19:59:36 IST" name="RegisterDemo Flow" finished-at="2023-11-26T19:59:48 IST" duration-ms="12164">
       <class name="com.nxtgenai.registerdemo.RegisterDemoFlow">
-        <test-method signature="launchApplication()[pri:1, instance:com.nxtgenai.registerdemo.RegisterDemoFlow@194eab6]" started-at="2023-11-26T19:26:34 IST" name="launchApplication" finished-at="2023-11-26T19:26:46 IST" duration-ms="11892" status="PASS">
+        <test-method signature="launchApplication()[pri:1, instance:com.nxtgenai.registerdemo.RegisterDemoFlow@5d7148e2]" started-at="2023-11-26T19:59:36 IST" name="launchApplication" finished-at="2023-11-26T19:59:42 IST" duration-ms="5897" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application is launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="closeApplication()[pri:5, instance:com.nxtgenai.registerdemo.RegisterDemoFlow@194eab6]" started-at="2023-11-26T19:26:46 IST" name="closeApplication" finished-at="2023-11-26T19:26:46 IST" duration-ms="239" status="PASS">
+        <test-method signature="navigateToRegisterDemoPage()[pri:2, instance:com.nxtgenai.registerdemo.RegisterDemoFlow@5d7148e2]" started-at="2023-11-26T19:59:42 IST" name="navigateToRegisterDemoPage" finished-at="2023-11-26T19:59:44 IST" duration-ms="1925" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register Demo Page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterDemoPage -->
+        <test-method signature="registerDemo()[pri:3, instance:com.nxtgenai.registerdemo.RegisterDemoFlow@5d7148e2]" started-at="2023-11-26T19:59:44 IST" name="registerDemo" finished-at="2023-11-26T19:59:48 IST" duration-ms="3963" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First Name is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[First Name is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[First Name Value is: Vinoth]]>
+            </line>
+            <line>
+              <![CDATA[Last Name is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Last Name is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Last Name Value is: R]]>
+            </line>
+            <line>
+              <![CDATA[Male Radio Button is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Male Radio Button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Male Radio Button is not selected]]>
+            </line>
+            <line>
+              <![CDATA[Male Radio Button is selected]]>
+            </line>
+            <line>
+              <![CDATA[Street Address is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Street Address is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Street Address Value is: xyZ]]>
+            </line>
+            <line>
+              <![CDATA[Apartment Number is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Apartment Number is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Apartment Number Value is : S1]]>
+            </line>
+            <line>
+              <![CDATA[City Name is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[City Name is enabled]]>
+            </line>
+            <line>
+              <![CDATA[City Name Value is : Chennai]]>
+            </line>
+            <line>
+              <![CDATA[State is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[State is enabled]]>
+            </line>
+            <line>
+              <![CDATA[State Value is : Tamil Nadu]]>
+            </line>
+            <line>
+              <![CDATA[Postal Code is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Postal Code is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Postal Code Value is : 560078]]>
+            </line>
+            <line>
+              <![CDATA[Country Drop Down is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Country Drop Down is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Email is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Email is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Email Id is: ra@aol.com]]>
+            </line>
+            <line>
+              <![CDATA[Date of Demo is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Date of Demo is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Date of Demo Value is : 01/27/2023]]>
+            </line>
+            <line>
+              <![CDATA[Hour DropDown is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Hour DropDown is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Hour dropdown value is: 09]]>
+            </line>
+            <line>
+              <![CDATA[Minute DropDown is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Minute DropDown is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Minute Drop Down Value is : 30]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number Value is : 123456789]]>
+            </line>
+            <line>
+              <![CDATA[UFT Check Box is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[UFT Check Box is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[UFT Check Box is not selected]]>
+            </line>
+            <line>
+              <![CDATA[UFT Check Box is selected]]>
+            </line>
+            <line>
+              <![CDATA[Selenium WebDriver Check Box is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Selenium WebDriver Check Box is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Selenium WebDriver Check Box is not selected]]>
+            </line>
+            <line>
+              <![CDATA[Selenium WebDriver Check Box is Selected]]>
+            </line>
+            <line>
+              <![CDATA[Enter Your Query is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Enter Your Query is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Enter Your Query is: Registration is done successfully without any error]]>
+            </line>
+            <line>
+              <![CDATA[Enter Any Two Digits is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Enter Any Two Digits is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Enter Any Two Digits is: 99]]>
+            </line>
+            <line>
+              <![CDATA[Submit Button is Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerDemo -->
+        <test-method signature="validateSuccessfulMessage()[pri:4, instance:com.nxtgenai.registerdemo.RegisterDemoFlow@5d7148e2]" started-at="2023-11-26T19:59:48 IST" name="validateSuccessfulMessage" finished-at="2023-11-26T19:59:48 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successful Message Text is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[User is registered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected Successful Msg Text are the same]]>
+            </line>
+            <line>
+              <![CDATA[The Successful Message Text is : Dynamic Transaction Verification
+Registration Form is Successfully Submitted. The Transaction ID : NXTGEN58248]]>
+            </line>
+            <line>
+              <![CDATA[Successful Message is validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulMessage -->
+        <test-method signature="closeApplication()[pri:5, instance:com.nxtgenai.registerdemo.RegisterDemoFlow@5d7148e2]" started-at="2023-11-26T19:59:48 IST" name="closeApplication" finished-at="2023-11-26T19:59:48 IST" duration-ms="240" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application is closed]]>
